@@ -45,4 +45,15 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index
+  counter = 0
+  array.each do |word|
+    if counter !=1
+      word = word + "s"
+      counter += 1
+    else
+      word = word
+      counter +=1
+    end
+  end
+end
+
