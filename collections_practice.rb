@@ -30,7 +30,7 @@ end
 
 def kesha_maker(array)
   array.each do |word|
-    word.split("")[2] == "$"
+    word.split("")[2] = "$"
   end
 end
 
