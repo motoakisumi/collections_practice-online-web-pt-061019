@@ -48,11 +48,12 @@ def add_s(array)
   counter = 0
   array.collect do |word|
     if counter !=1
-      word = word + "s"
       counter += 1
+      word = word + "s"
     else
-      word = word
       counter +=1
+      word = word
+      
     end
   end
 end
