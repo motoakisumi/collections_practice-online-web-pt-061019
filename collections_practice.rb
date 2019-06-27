@@ -23,7 +23,7 @@ def swap_elements(array)
   array.sort do |a, b|
     if array.index(a) == 1
       -1
-    elsif array.index(a) == 2
+    elsif array.index(b) == 2
       1
     end
   end
