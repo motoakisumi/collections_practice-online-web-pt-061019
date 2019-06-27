@@ -34,5 +34,6 @@ def kesha_maker(array)
     word[2] = "$"
     word.join
   end
+  return array
 end
 
