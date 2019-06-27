@@ -25,4 +25,6 @@ def swap_elements(array)
       -1
     elsif array.index(a) == 2
       1
+    end
+  end
 end
