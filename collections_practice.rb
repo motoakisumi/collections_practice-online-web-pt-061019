@@ -46,7 +46,7 @@ end
 
 def add_s(array)
   counter = 0
-  array.each do |word|
+  array.collect do |word|
     if counter !=1
       word = word + "s"
       counter += 1
