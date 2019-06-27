@@ -55,5 +55,6 @@ def add_s(array)
       counter +=1
     end
   end
+  return array
 end
 
