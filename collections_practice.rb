@@ -53,7 +53,6 @@ def add_s(array)
     else
       counter +=1
       word = word
-      
     end
   end
 end
